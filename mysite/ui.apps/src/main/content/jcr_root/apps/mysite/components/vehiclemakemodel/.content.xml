@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="Renders two dropdown fields on the page. Both the dropdown fields render options from a json file that is uploaded in the DAM.&#xa;&#xa;Contents in Second dropdown fields are dependent upon the option selected in First Dropdown field. &#xa;&#xa;If the json file path is not rendered in the dialog, then this component would show static list of options."
+    jcr:primaryType="cq:Component"
+    jcr:title="Vehicle Make- Model "
+    componentGroup="My Site - Content"/>

@@ -1,0 +1,22 @@
+<sly data-sly-test.jsonFilePath="${properties.jsonFilePath}"
+ 	data-sly-use.carModel="com.mysite.core.models.Cars">
+</sly>
+<form class="form" data-cars-details = "${carModel.cars}">
+	<b> ${properties.firstDropdownLabel || 'Vehicle Make'} </b> </br>
+    <select class="dropdown-one">
+    	<option>Static Option 1</option>
+    	<option>Static Option 2</option>
+    	<option>Static Option 3</option>
+    	<option>Static Option 4</option>
+    	<option>Static Option 5</option>
+    </select>
+    </br></br>
+    <b> ${properties.secondtDropdownLabel || 'Vehicle Model'} </b> </br>
+        <select class="dropdown-two">
+        <option>${properties.dropdownOptionsPlaceholder || 'Please select a Make Type'}</option>
+    	<option>Static Option 2</option>
+    	<option>Static Option 3</option>
+    	<option>Static Option 4</option>
+    	<option>Static Option 5</option>
+    </select>
+</form>
